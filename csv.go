@@ -26,6 +26,18 @@ func Initialize(fidIN *os.File,readPerCall int) {
 	fid = fidIN //save file descriptor
 	outString = nil //reset the buffer where the fields value will be saved
 }
+//GetCurrentLine func
+//Input: None
+//Output: Slice of string and a bool value 
+//Objective: returns the field values for the last read line of the csv file; if no line was ever read from the csv file, 
+//this function returns nil slice and a false bool value. Otherwise, it returs the slice that contains the field 
+//value and a true bool value
+func GetCurrentLine()([]string,bool){
+	if(outString==nil){
+		return nil,false
+	}
+	return outString,true
+}
 
 //Read1Field func
 //Input: none
@@ -71,7 +83,6 @@ func Read1Line() ([]string,bool) {
 	var lenV int //len of the vetor with the indexs for the " char in the field value
 	var lenS uint32 //len of the field value
 	var compensation uint32 //compensation factor
-	//var lenV int
 	for k,v := range mapCommaQuote{ 
 		lenV = len(v)
 		inicioS = uint32((fimRead >>32) & k) //decode the begin of the field value in the line
@@ -184,7 +195,6 @@ func countSpecialChars(in []byte) (map[uint64][]uint32){
 	}
 
 	inicioPrev := countIDX+1 // index that indicates where i will start the search for the " character
-	//idxComma marca o fim de um campo do CSV e o inicio de outro campo CSV
 	
 	for idxComma = bytes.IndexAny(in[countIDX+1:],";");idxComma >=0;idxComma=bytes.IndexAny(in[countIDX+1:],";"){
 		countIDX +=idxComma+1 //upload the index value where the next search for the ; character will start
@@ -204,7 +214,7 @@ func countSpecialChars(in []byte) (map[uint64][]uint32){
 		copy(mapCommaQuotes[uint64(countIDX) <<32 | inicio], auxidxQuote)
 		countString++
 		auxidxQuote = auxidxQuote[:0]
-		inicio = uint64(countIDX)+1 // Caso o idxComma simbolize o fim de um campo CSV
+		inicio = uint64(countIDX)+1 
 		countQuoteInter = 0
 	}
 
