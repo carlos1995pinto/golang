@@ -7,7 +7,6 @@ import (
 	//"fmt"
 )
 
-//Vai dar uma volta
 var fid *os.File //it will save the file descriptor of the csv file
 var size1read int = 10 //it will read 10 bytes of the csv file each time
 var fimRead uint64 = 0xFFFFFFFF00000000 //decode of the begin and end of each field in the all line
