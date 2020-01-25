@@ -1,0 +1,13 @@
+{
+    "Comment":"this json files must have for each key an array of string as value even if the value is only one",
+    "Title":"Front Door",
+    "Text" : ["I arrive to the front door. It was closed and i didn't have the key to open it.",
+            "So, I start to look around to see if i could find something to open.",
+            "When i was finishing looking around, i found a tool that would help me open the door. But if i use that tool, then i will damage the door",
+            "So i thought that i could look in the back of the house to see if i found a another door that was open"],
+    "Image":["https://i0.wp.com/homimu.com/wp-content/uploads/2019/06/Small-Front-Yard-Design-with-Beautiful-Blooming-Flowers-28.jpg?w=256&h=257&ssl=1",
+            "https://i.pinimg.com/originals/ba/7d/86/ba7d867e9671c16bbbbf208a6aa48936.jpg",  
+            "https://api.caramaps.com/v1/area/128649/photo/mini"        
+        ],
+    "Link":["inside","outsideBack"]
+}

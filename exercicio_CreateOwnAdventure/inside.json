@@ -1,0 +1,12 @@
+{
+    "Title":"Inside of House",
+    "Text" : ["I am inside of the house, just near the front door. I can see a lot of divisions that i should explorer.",
+            "I have what appears to be a stairs to a second floor that will lead me to the upstairs hall. I can also see the dining room and the kitchen.",
+            "It appears that no person is in the house but i should check just in case."],
+    "Image":["https://s3.amazonaws.com/homesnap.listings/3077925421-55620008-listing.jpg",
+            "https://i.pinimg.com/originals/39/ca/c9/39cac96708786ea0a89af793b00ec319.jpg",  
+            "https://i.pinimg.com/474x/ac/56/15/ac5615ece5b01133c02fadb629b13df5.jpg",
+            "https://st.hzcdn.com/simgs/5d7172d803f77af8_4-0483/beach-style-entry.jpg"     
+        ],
+    "Link":["kitchen","diningroom","secondfloorhall"]
+}

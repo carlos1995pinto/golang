@@ -1,0 +1,14 @@
+{
+    "Title":"In the Kitchen",
+    "Text" : ["I just arrive to the kitchen. I check the fridge and i see that it is almost empty. I also see the food was being prepare so someone is in the house or will arrive soon.",
+            "I can also see the living room. I hear something coming from there. I should probably checkout.",
+            "I have observed that there is a lot of dirty dishes in the sink.",
+            "From the kitchen i can see that there is a door to the outside. It could be open."],
+    "Image":["https://ak5.picdn.net/shutterstock/videos/21616795/thumb/1.jpg",
+            "http://smallnotebook.org/wp-content/uploads/empty-fridge.jpg",  
+            "https://i.pinimg.com/474x/9f/57/50/9f575037d30817fb2fe1e498ff6298eb.jpg",
+            "https://sunburstshutters.com/wp-content/themes/sunburst2019/images/375/French_Door_Back_Door_Corporate.jpg",
+            "https://st.hzcdn.com/simgs/5d7172d803f77af8_4-0483/beach-style-entry.jpg"
+        ],
+    "Link":["inside","livingroom","backdoor"]
+}

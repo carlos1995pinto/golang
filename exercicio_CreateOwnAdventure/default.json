@@ -1,0 +1,15 @@
+{
+    "comment": "in this file i will have the link as a key and the correspond json file.In this example the adventure will be around a house. This json must have a key named startPoint",
+    "startPoint":"frontdoor",
+    "frontdoor" :"frontdoor.json",
+    "inside":"inside.json",
+    "kitchen":"kitchen.json",
+    "livingroom":"livingroom.json",
+    "bedroom":"bedroom.json",
+    "bathroom":"bathroom.json",
+    "secondfloorhall":"secondfloorhall.json",
+    "diningroom":"diningroom.json",
+    "outsideBack":"outside.json",
+    "basement":"basement.json"
+
+}

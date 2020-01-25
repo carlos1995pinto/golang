@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <title>Bem Vindo</title>
+    <div id="caixaTexto">
+    <h1 style="text-align: center;">Chapper {{.Title}}</h1>
+    {{range $i:= .Text}}
+    <p>{{$i}}</p>
+    {{end}}
+    </div>
+    <div id=".images">
+     {{range $i := .Image }}   
+    <img src="{{$i}}">
+    {{end}}
+    </div>
+    <div id="botoes">
+     {{range $i := .Link}}
+        <button onclick = "window.location.href='/{{$i}}'">{{$i}}</button>
+     {{end}}
+    </div>
+    
+</html>

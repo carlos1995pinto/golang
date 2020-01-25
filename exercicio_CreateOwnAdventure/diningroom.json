@@ -1,0 +1,16 @@
+{
+    "Title":"The Dining room",
+    "Text" : ["Just got inside the room, and holy shit, those are very expensive plates. A big wood table. These guys didn't look at expensives ahahah.",
+            "The table was set but nothing else was there. Big long scratchs on the floor that were going around the table, like someone was dragged.",
+            "This must be some fucking crazy family but lets continue the exploration.",
+            "After that i notice a sound coming from the living room. I probably should check that or just ignore and avoid by going back to the entry of the house",
+            "As I was deciding what to do, i noticed a stairs that would leave to the basement. Must be a sex nest ahahah."],
+
+    "Image":["https://i.pinimg.com/474x/ac/56/15/ac5615ece5b01133c02fadb629b13df5.jpg",
+            "https://d26v2qk64p5pz1.cloudfront.net/-/media/CarpetOne/Microsites/CA/CPTONE_0477/carpetonefloorhomerosevillechicocaflooringtipstrickshardwooddentsscratches.jpg?h=275&w=300&la=en&hash=6417B6DAAE8C7108E279D803FE9FD38F2C2E7FAE",  
+            "https://i.pinimg.com/474x/9f/57/50/9f575037d30817fb2fe1e498ff6298eb.jpg",
+            "https://st.hzcdn.com/simgs/5d7172d803f77af8_4-0483/beach-style-entry.jpg",
+            "https://i.pinimg.com/originals/16/72/f4/1672f4b0eb05a03cf4ef4866218a07ba.jpg"    
+        ],
+    "Link":["livingroom","inside","basement"]
+}
